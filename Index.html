@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<title>California Pay Data Report</title>
+<link rel="stylesheet" href="style.css">
+<script type = "text/javascript" src="CAPayData.js"></script> 
+</head>
+
+<body>
+<div class = "container">
+    <h1>Create California Pay Data Report</h1>
+    <h2>Select Import file below:</h2>
+     <li><span>T5U13 file export from ECC  </span> <input id="T5U13" type="file" required ></li>  
+    <li><span>California Residents data from ECC  </span> <input id="CARESDTA" type="file" required ></li>  
+    <li><span>Non California Residents data from ECC  </span> <input id="NONCARESDTA" type="file" required ></li>  
+    <li><span>Exclusion Employee List  </span> <input id="EXCLDATA" type="file" required ></li>  
+    <li><span>705 Amount File  </span> <input id="705File" type="file" required ></li>  
+    <li><span>Annual hours file  </span> <input id="annHours" type="file" required ></li>  
+
+ 
+  &nbsp;
+   &nbsp;
+   &nbsp;
+ 
+    <input type="button" onclick = "displaymyMessage()" Value="Prepare California Pay Data">
+    <p id='ui_message'></p>
+  </div>  
+
+
+</body>
+<html>
