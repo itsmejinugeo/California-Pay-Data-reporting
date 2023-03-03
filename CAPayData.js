@@ -5,7 +5,7 @@ function displaymyMessage()
    //cares = document.getElementById("CARESDTA").files[0];
    //document.getElementById('ui_message').innerHTML =t5U13File.name + "----" + cares.name;  
   
-   window.location.href="C:/Users/jgeorge/Desktop/ECC/California%20PayData/homeTest.html";
+   window.location.href="homeTest.html";
    //window.location.replace("https://www.costco.com/");
 
 
